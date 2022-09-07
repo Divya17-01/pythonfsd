@@ -1,0 +1,200 @@
+import denim from "../assest/images/Jacket.webp";
+import samsungs22u from "../assest/images/samsungs22u.webp";
+export function getBrowsingData(param) {
+    return [
+      {
+        id: 0,
+        item1: samsungs22u,
+        item2: "Samsung S22 Ultra",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$400",
+        quantity: 0,
+      },
+      {
+        id: 1,
+        item1: samsungs22u,
+        item2: "Samsung S20FE",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$430",
+        quantity: 0,
+      },
+      {
+        id: 2,
+        item1: denim,
+        item2: "Jacket",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$954",
+        quantity: 0,
+      },
+      {
+        id: 3,
+        item1: samsungs22u,
+        item2: "Samsung Note 10",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$630",
+        quantity: 0,
+      },
+      
+      {
+        id: 4,
+        item1: samsungs22u,
+        item2: "Samsung Note 8",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$890",
+        quantity: 0,
+      },
+      {
+        id: 5,
+        item1: denim,
+        item2: "Jacket X",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$999",
+        quantity: 0,
+      },
+      {
+        id: 6,
+        item1: samsungs22u,
+        item2: "Samsung S21",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$755",
+        quantity: 0,
+      },
+      {
+        id: 7,
+        item1: samsungs22u,
+        item2: "Samsung Note 9",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$496",
+        quantity: 0,
+      },
+      {
+        id: 8,
+        item1: samsungs22u,
+        item2: "Samsung S22",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$831",
+        quantity: 0,
+      },
+      {
+        id: 9,
+        item1: samsungs22u,
+        item2: "Samsung S21",
+        item3:
+        "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$942",
+        quantity: 0,
+      },
+      {
+        id: 10,
+        item1: denim,
+        item2: "Jacket K",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$643",
+        quantity: 0,
+      },
+      {
+        id: 11,
+        item1: samsungs22u,
+        item2: "Samsung flip",
+        item3:"8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$600",
+        quantity: 0,
+      },
+      {
+        id: 12,
+        item1: samsungs22u,
+        item2: "Samsung Fold",
+        item3:"8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$500",
+        quantity: 0,
+      },
+      {
+        id: 13,
+        item1: denim,
+        item2: "Jacket F",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$500",
+        quantity: 0,
+      },
+      {
+        id: 14,
+        item1: samsungs22u,
+        item2: "Samsung S22",
+        desc: "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$550",
+        quantity: 0,
+      },
+      {
+        id: 15,
+        item1: samsungs22u,
+        item2: "Samsung note 6",
+        desc:"8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$500",
+        quantity: 0,
+      },
+      {
+        id: 16,
+        item1: samsungs22u,
+        item2: "Samsung note 9",
+        item3:"8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$600",
+        quantity: 0,
+      },
+      {
+        id: 17,
+        item1: samsungs22u,
+        item2: "Samsung S22FE",
+        item3: "8 GB RAM | 128 GB 6.1 flat FHD+ Dynamic AMOLED 2X Infinity-O Display (2340x1080) 425 ppi HDR10+ certified 120Hz refresh rate",
+        price: "$500",
+        quantity: 0,
+      },
+      {
+        id: 18,
+        item1: denim,
+        item2: "Jacket Z",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$500",
+        quantity: 0,
+      },
+      {
+        id: 19,
+        item1: denim,
+        item2: "Jacket R",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$500",
+        quantity: 0,
+      },
+      {
+        id: 20,
+        item1: denim,
+        item2: "Jacket H",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$500",
+        quantity: 0,
+      },
+      {
+        id: 21,
+        item1: denim,
+        item2: "Jacket D",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$500",
+        quantity: 0,
+      },
+    
+      {
+        id: 22,
+        item1: denim,
+        item2: "Jacket XX",
+        item3: "Men's Keanu Leather Jacket In Black - Thursday Boot Company ",
+        price: "$500",
+        quantity: 0,
+      },
+    ];
+}
