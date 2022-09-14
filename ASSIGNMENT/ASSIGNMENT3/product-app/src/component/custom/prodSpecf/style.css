@@ -1,0 +1,25 @@
+.ProdSpecf-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    gap: 4vw;
+    }
+    .ProdSpecf-Detail-Con{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2.5vh
+    }
+    .ProdSpecf-img{
+        height: 50vh;
+        width: 50vw;
+    }
+    
+    .prod-list{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }

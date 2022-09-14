@@ -1,0 +1,62 @@
+.View-Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    width: 96vw;
+    margin: auto;
+    background-color: #FEFBF6;
+    cursor: pointer;
+}
+.View-img1{
+    height: 40vh;
+    width: 30vw;
+    grid-row: 1/span 1;
+    grid-column: 3/span1;
+}
+.View-img2{
+    height: 40vh;
+    width: 30vw;
+    grid-row: 2/span 1;
+    grid-column: 2/span1;
+}
+.View-detail1{
+    grid-row: 1/span 1;
+    grid-column: 1/span 2;
+    font-size: 6.5vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.View-detail2{
+    grid-row: 2/span 1;
+    grid-column: 1/span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+
+}
+.detail2-spec1{
+    font-size: 2.5vw;
+}
+.detail2-spec2{
+    font-size: 2.5vw;
+}
+.detail3-spec3{
+    grid-row: 2 /span 1;
+    grid-column: 3/span 1;
+    font-size: 2.5vw;
+    border: 0.1vh solid black;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 30vw;
+    
+}

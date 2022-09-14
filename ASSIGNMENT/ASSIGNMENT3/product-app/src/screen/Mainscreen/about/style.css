@@ -1,0 +1,33 @@
+.About{
+    display: flex;
+    flex-direction: column;
+}
+.About-big{
+    font-size: 5vw;
+    margin: auto;
+    width: 30vw;
+}
+.About-footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:3vw
+}
+.About-footer-heading{
+    font-size: 3vw;
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+.About-wiki{
+    width: 50vw;
+    margin: 2vw;
+}
+.About-history{
+    width: 40vw;
+    margin: 2vw;
+}

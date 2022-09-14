@@ -1,0 +1,23 @@
+import React from "react";
+import "./style.css";
+import asus from "../../../assest/images/asus.jpg";
+import asus1 from "../../../assest/images/asus1.jpg";
+import { useNavigate } from "react-router-dom";
+export default function ViewCom(props) {
+    let navigate = useNavigate();
+    return (
+      <div
+        className="View-Container"
+        onClick={() => navigate("/Productspecfication")}
+      >
+        <span className="View-detail1">#Feel the thrill</span>
+        <span className="View-detail2">
+          <span className="detail2-spec1">ROG SRTIX SCAR 7 SE</span>
+          <span className="detail2-spec2">BREAK ALL LIMTS</span>
+        </span>
+        <img src={asus} alt="" className="View-img1" />
+        <img src={asus1} alt="" className="View-img2" />
+        <span className="detail3-spec3">Available Now</span>
+      </div>
+    );
+}

@@ -1,0 +1,16 @@
+.Custom-Container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5E8E4;
+    width: 50vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vh;
+    cursor: pointer;
+}
+.Custom-img{
+height: 40vh;
+width: 30vw;
+cursor: pointer;
+}
